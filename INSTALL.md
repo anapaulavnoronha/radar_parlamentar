@@ -168,8 +168,17 @@ http://radarparlamentar.polignu.org/importadores/
 
 Recomendamos inicialmente que você realize a importação dos dados Convenção Nacional Francesa (uma casa legislativa fictícia).
 
+5. Configuração do South
+-------------------------
 
-5. Conferindo se está tudo certo
+Instalação:
+
+	$ sudo pip install South 
+	
+Adicionar o South no `INSTALLED_APPS` no arquivo `settings/defaults.py`.
+
+
+6. Conferindo se está tudo certo
 ---------------------------------
 Execute o script de testes e testes unitários:
     
